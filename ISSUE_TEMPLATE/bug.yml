@@ -1,0 +1,33 @@
+name: Bug report
+description: Something returns the wrong result, throws, or is slow.
+type: Bug
+body:
+  - type: input
+    id: version
+    attributes:
+      label: Package version
+      placeholder: "@email-utils/validator-syntax@1.0.0"
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Minimal reproduction
+      description: The smallest code and input that shows the problem.
+      render: ts
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected and actual behavior
+      description: What you expected, what happened, and (for validation results) which RFC or provider rule you expected it to follow.
+    validations:
+      required: true
+  - type: input
+    id: runtime
+    attributes:
+      label: Runtime
+      placeholder: Node 24.11, Chrome 140, Bun 1.3, …
+    validations:
+      required: true
