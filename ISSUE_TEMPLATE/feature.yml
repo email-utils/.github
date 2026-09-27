@@ -1,0 +1,19 @@
+name: Feature request
+description: Suggest an addition or a change.
+type: Feature
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem would this solve?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed API or behavior
+      description: Sketch the call and its result if you can.
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives you've considered
