@@ -1,0 +1,14 @@
+name: Question
+description: Ask how to do something.
+type: Task
+labels: [question]
+body:
+  - type: markdown
+    attributes:
+      value: Please check the [docs](https://email-utils.github.io/meta/) first; if they didn't answer it, that's worth fixing too.
+  - type: textarea
+    id: question
+    attributes:
+      label: Your question
+    validations:
+      required: true

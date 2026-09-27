@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Documentation
+    url: https://email-utils.github.io/meta/
+    about: Guides, API reference, and the support matrix.
+  - name: Report a security vulnerability
+    url: https://github.com/email-utils/meta/security/advisories/new
+    about: Please report vulnerabilities privately.
